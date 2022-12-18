@@ -1,4 +1,4 @@
-@keyframes showcard {
+@keyframes show {
     to {
         top: 0;
         opacity: 1;
@@ -13,10 +13,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Helvetica Neue", "Segoe UI", "Open Sans", sans-serif;
+}
+
 .container {
-    /* width: min(90vw, 800px);
-    margin: auto;
-    text-align: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,38 +35,26 @@
     visibility: hidden;
 }
 
-.game.active {
+.game.active, .buttons.active {
     opacity: 1;
     visibility: visible;
 }
 
-.play {
+.play , .play-again{
     opacity: 0;
     visibility: hidden;
     width: 20rem;
 }
 
-.play.active {
+.play.active, .play-again.active {
     opacity: 1;
     visibility: visible;
-    background-color:  rgb(26, 211, 26);;
+    background-color:  rgb(20, 218, 20);
 }
 
-.play-again {
-    opacity: 0;
-    visibility: hidden;
-    width: 20rem;
-
-}
 
 .play:hover, .play-again:hover {
     opacity: .8;
-}
-
-
-.play-again.active {
-    opacity: 1;
-    visibility: visible;
 }
 
 .buttons {
@@ -75,13 +64,9 @@
     order: 3;
 }
 
-.buttons.active {
-    opacity: 1;
-    visibility: visible;
-}
 
 button.yes{
-    background-color: rgb(26, 211, 26);
+    background-color: rgb(20, 218, 20);
 }
 
 button.No{
@@ -89,13 +74,20 @@ button.No{
 }
 
 /* Card  */
+
 #cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 60vw;
     height: 50vh;
+}
+
+@media (max-width: 700px) {
+    #cards {
+        width: 100vw;
+    }
 }
 
 .card {
@@ -103,7 +95,6 @@ button.No{
     order: 2;
     justify-content: center;
     flex-wrap: wrap;
-    /* margin: 16px; */
 }
 
 .number {
@@ -119,7 +110,7 @@ button.No{
 
 .number, h1, h2, .buttons {
 
-    animation: showcard 2s .5s ease-out forwards;
+    animation: show 2s .5s ease-out forwards;
 
 }
 
@@ -135,8 +126,6 @@ button {
     background-color:rgb(70, 70, 70);
     cursor: pointer;
 
-    /* margin-left: 10px;
-    margin-top: 12px; */
 }
 
 button:hover {
@@ -145,17 +134,15 @@ button:hover {
 
 .result {
     padding: 10px;
-    background: rgb(109, 109, 255);
+    background: rgb(43, 43, 234);
     border-radius: 4px;
     color: white;
     margin: auto;
     width: 25%;
 }
 
-h1, h2{
+h1, h2 {
     color: rgb(70, 70, 70);
     opacity: 0;
-    top: -50px;
-    margin-bottom: 3rem;
-
 }
+
