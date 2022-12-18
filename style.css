@@ -1,0 +1,161 @@
+@keyframes showcard {
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+/* Geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* width: min(90vw, 800px);
+    margin: auto;
+    text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* Play Game Buttons */
+
+.game {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.game.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.play {
+    opacity: 0;
+    visibility: hidden;
+    width: 20rem;
+}
+
+.play.active {
+    opacity: 1;
+    visibility: visible;
+    background-color:  rgb(26, 211, 26);;
+}
+
+.play-again {
+    opacity: 0;
+    visibility: hidden;
+    width: 20rem;
+
+}
+
+.play:hover, .play-again:hover {
+    opacity: .8;
+}
+
+
+.play-again.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.buttons {
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 3rem;
+    order: 3;
+}
+
+.buttons.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+button.yes{
+    background-color: rgb(26, 211, 26);
+}
+
+button.No{
+    background-color: rgb(230, 10, 54);
+}
+
+/* Card  */
+#cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+}
+
+.card {
+    display: flex;
+    order: 2;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 16px; */
+}
+
+.number {
+    margin: 10px;
+    padding: 10px;
+    background: rgb(109, 109, 255);
+    border-radius: 4px;
+    color: white;
+
+    top: -50px;
+    opacity: 0;
+}
+
+.number, h1, h2, .buttons {
+
+    animation: showcard 2s .5s ease-out forwards;
+
+}
+
+.card div:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+button {
+    padding: 8px 12px;
+    color: white;
+    border: none;
+    background-color:rgb(70, 70, 70);
+    cursor: pointer;
+
+    /* margin-left: 10px;
+    margin-top: 12px; */
+}
+
+button:hover {
+    opacity: .8;
+}
+
+.result {
+    padding: 10px;
+    background: rgb(109, 109, 255);
+    border-radius: 4px;
+    color: white;
+    margin: auto;
+    width: 25%;
+}
+
+h1, h2{
+    color: rgb(70, 70, 70);
+    opacity: 0;
+    top: -50px;
+    margin-bottom: 3rem;
+
+}

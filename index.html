@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Adivinha meu número</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Pense em um número de 1 a 63, e clique em "JOGAR"</h1>
+        
+        <section class="game">
+            <div id="cards">
+                <h2>Seu número é algum desses?</h2>
+
+                <div class="card">
+                    <div></div>
+                </div>
+
+                <div class="buttons">
+                    <button class="yes" onclick="Magic.yes()">SIM</button>
+                    <button class="No" onclick="Magic.no()">NÃO</button>
+                    <button class="restart" onclick="window.location.reload()">RECOMEÇAR</button>
+                </div>
+                
+
+            </div>
+    
+        </section>
+        
+        <button class="play active" onclick="PlayGame.play()">JOGAR</button>
+        <button class="play-again" onclick="window.location.reload()">Jogar Novamente!</button>
+        
+        
+    </div>
+
+    <script src="./scripts.js"></script>
+    
+</body>
+</html>
