@@ -33,11 +33,13 @@ body {
 .game {
     opacity: 0;
     visibility: hidden;
+    display: none;
 }
 
 .game.active, .buttons.active {
     opacity: 1;
     visibility: visible;
+    display: block;
 }
 
 .play , .play-again{
@@ -50,6 +52,8 @@ body {
     opacity: 1;
     visibility: visible;
     background-color:  rgb(20, 218, 20);
+    margin-top: 50px;
+
 }
 
 
@@ -62,6 +66,16 @@ body {
     visibility: hidden;
     margin-top: 3rem;
     order: 3;
+}
+
+.links > a  {
+    color: rgb(9, 105, 218);
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.links > a:hover {
+    text-decoration: underline;
 }
 
 

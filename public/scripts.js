@@ -116,6 +116,8 @@ const PlayGame = {
         document.querySelector(".play").classList.remove("active")
         document.querySelector(".play-again").classList.remove("active")
         document.querySelector("h1").remove()
+        document.querySelector(".links").remove()
+
 
 
         Magic.changeCard()
