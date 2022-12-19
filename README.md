@@ -1,6 +1,6 @@
 ## 💻 Sobre o projeto.
 
-🔢 Adivinha meu número - é um jogo online onde irá adivinhar um número pensado pelo usuário entre 1 e 63.
+🔢 Adivinha meu número - é um jogo online onde será adivinhado um número pensado pelo usuário entre 1 e 63.
 
 ##
 
@@ -12,7 +12,7 @@ Acesse: www.adivinhameunumero.com.br
 
 ### 💡Como o site funciona.
 
-Se aprofunde no projeto e entenda a motivação, o funcionamento e a lógica por trás do site: 
+Se aprofunde no projeto e entenda a motivação, o funcionamento e a lógica por trás do site: [Artigo no TabNews](https://www.tabnews.com.br/gabrielmarques/aprenda-html-css-e-javascript-com-esse-projeto-delicinha-de-um-jogo-online-de-adivinhacao)
 
 ##
 
@@ -36,7 +36,7 @@ Se aprofunde no projeto e entenda a motivação, o funcionamento e a lógica por
  <sub><b>Gabriel Marques</b></sub></a> <a href="https://www.linkedin.com/in/marques-gabriel/"">🚀   </a>
  <br />
 
- [![Instagram Badge](https://img.shields.io/badge/-Gabriel%20Marques-D92F66?style=flat-square&logo=Instagram&logoColor=white&link=#)](#) [![Linkedin Badge](https://img.shields.io/badge/-Gabriel%20Marques-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marques-gabriel/)](https://www.linkedin.com/in/marques-gabriel/) 
+ [![Instagram Badge](https://img.shields.io/badge/-Gabriel%20Marques-D92F66?style=flat-square&logo=Instagram&logoColor=white&link=www.instagram.com.br/gabriielmarques__)](#) [![Linkedin Badge](https://img.shields.io/badge/-Gabriel%20Marques-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marques-gabriel/)](https://www.linkedin.com/in/marques-gabriel/) 
 
 ---
 
