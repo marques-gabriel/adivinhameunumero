@@ -36,7 +36,7 @@ Se aprofunde no projeto e entenda a motivação, o funcionamento e a lógica por
  <sub><b>Gabriel Marques</b></sub></a> <a href="https://www.linkedin.com/in/marques-gabriel/"">🚀   </a>
  <br />
 
- [![Instagram Badge](https://img.shields.io/badge/-Gabriel%20Marques-D92F66?style=flat-square&logo=Instagram&logoColor=white&link=#)](http://www.instagram.com.br/gabriielmarques__) [![Linkedin Badge](https://img.shields.io/badge/-Gabriel%20Marques-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marques-gabriel/)](https://www.linkedin.com/in/marques-gabriel/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Gabriel%20Marques-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marques-gabriel/)](https://www.linkedin.com/in/marques-gabriel/) 
 
 ---
 
